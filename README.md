@@ -1,3 +1,13 @@
+# Gradical 🛒
+
+This is an app for my wife and I to keep up with groceries and other important info in real time.
+
+## Technology 🤖
+
+React
+Vite
+Next.js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
