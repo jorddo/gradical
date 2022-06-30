@@ -11,7 +11,7 @@ export default function Home() {
       <main>
         <h1>
           Welcome to the home page, bb.
-          <Link href='/Signup'>Hello</Link>
+          <Link href='/Signup'>Hello</Link>eral
         </h1>
       </main>
     </div>

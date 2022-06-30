@@ -5,9 +5,13 @@ This is an app for my wife and I to keep up with groceries and other important i
 ## Technology 🤖
 
 React
-Vite
 Next.js
-
+Node
+Supabase
+Chakra UI
+GraphQL
+Apollo Client
+graphql-request
 https://github.com/prisma-labs/graphql-request
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
