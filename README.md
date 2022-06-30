@@ -8,11 +8,10 @@ React
 Next.js
 Node
 Supabase
-Chakra UI
+[Chakra UI](https://chakra-ui.com/)
 GraphQL
 Apollo Client
-graphql-request
-https://github.com/prisma-labs/graphql-request
+[graphql-request](https://github.com/prisma-labs/graphql-request)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
