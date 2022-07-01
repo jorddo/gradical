@@ -1,11 +1,9 @@
-import { gql } from 'apollo-server';
+import { gql } from 'apollo-server-micro';
 
 export default gql`
   extend type Query {
     lists: [List]
   }
-
-  extend type Mutation
 
   type List {
     id: ID!
