@@ -6,9 +6,7 @@ export default gql`
 
   directive @auth on FIELD | FIELD_DEFINITION | QUERY
 
-  type Query {
-    testQuery: String
-  }
+  type Query
 
   type Mutation {
     testMutation: String

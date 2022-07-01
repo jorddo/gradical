@@ -1,4 +1,4 @@
 import baseTypedefs from './base.typedefs';
-// import listTypedefs from './list.typedefs';
+import listTypedefs from './list.typedefs';
 
-export default [baseTypedefs];
+export default [baseTypedefs, listTypedefs];

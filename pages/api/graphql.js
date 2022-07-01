@@ -3,7 +3,7 @@ import {
   ApolloServerPluginLandingPageGraphQLPlayground,
   ApolloServerPluginLandingPageDisabled,
 } from 'apollo-server-core';
-// import { CorsOptions } from 'cors';
+import cors from 'cors';
 import { makeExecutableSchema } from '@graphql-tools/schema';
 import { applyMiddleware } from 'graphql-middleware';
 import { context } from './context';
@@ -38,7 +38,7 @@ const server = new ApolloServer({
 });
 
 server
-  .listen({ port: process.env.PORT || 3000 })
+  .listen()
   .then(({ url }) =>
     console.log(`🚀 Server ready at: ${url}${graphqlEndpoint}`)
   );

@@ -1,1 +1,1 @@
-export { default as testQuery } from './testQuery';
+export { default as lists } from './lists';
