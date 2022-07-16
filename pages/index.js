@@ -27,7 +27,8 @@ const Home = ({ lists }) => {
       <main>
         <h1>
           Welcome to the home page, bb.
-          <Link href='/Signup'>Hello</Link>
+          <Link href='/signup'>Sign Up</Link>
+          <Link href='/login'>Login</Link>
         </h1>
         <List spacing={3}>
           {/* 4. Map through lists, coming from props */}
